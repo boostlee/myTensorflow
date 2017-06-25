@@ -21,11 +21,12 @@ $ sudo pip install /tmp/tensorflow_pkg/tensorflow-1.2.0-py2-none-any.whl
 
 validation installation
 cd to other dir, and then
-# Python
-import tensorflow as tf
-hello = tf.constant('Hello, TensorFlow!')
-sess = tf.Session()
-print(sess.run(hello))
+
+$python
+$import tensorflow as tf
+$hello = tf.constant('Hello, TensorFlow!')
+$sess = tf.Session()
+$print(sess.run(hello))
 
 If the system outputs the following, then you are ready to begin writing TensorFlow programs:
 Hello, TensorFlow!
