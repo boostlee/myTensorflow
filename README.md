@@ -16,7 +16,6 @@ To build a pip package for TensorFlow with GPU support, invoke the following com
 $ bazel build --config=opt --config=cuda //tensorflow/tools/pip_package:build_pip_package
 
 The bazel build command builds a script named build_pip_package. Running this script as follows will build a .whl file within the /tmp/tensorflow_pkg directory:
-
 $ bazel-bin/tensorflow/tools/pip_package/build_pip_package /tmp/tensorflow_pkg
 $ sudo pip install /tmp/tensorflow_pkg/tensorflow-1.2.0-py2-none-any.whl
 
